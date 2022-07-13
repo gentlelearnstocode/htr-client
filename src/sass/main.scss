@@ -1,0 +1,15 @@
+//files within abstracts should always be on top
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/animation';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'pages/home';
+
+@import 'components/button';
+
+@import 'layout/header';
